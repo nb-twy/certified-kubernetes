@@ -54,7 +54,8 @@ Then reboot!
     1. Install custom git config
     1. (Optional) Set up custom prompt
 1. Install docker  
-   I would prefer to do this from the docker repository and not from the OS package repos.
+   * I would prefer to do this from the docker repository and not from the OS package repos.
+   * [Install Docker from Docker Repository](https://docs.docker.com/engine/install/ubuntu/)
 1. Install kubelet, kubeadm, kubectl
     * Need to disable selinux
     > Setting SELinux in permissive mode by running setenforce 0 and sed ... effectively disables it.
