@@ -53,7 +53,7 @@ Then reboot!
     1. Install PD
     1. Install custom git config
     1. (Optional) Set up custom prompt
-1. Install docker
+1. Install docker  
    I would prefer to do this from the docker repository and not from the OS package repos.
 1. Install kubelet, kubeadm, kubectl
     * Need to disable selinux
